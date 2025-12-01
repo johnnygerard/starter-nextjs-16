@@ -25,7 +25,8 @@
     "build": "next build",
     "dev": "next dev --turbo --hostname localhost",
     "lint": "eslint",
-    "start": "next start"
+    "start": "next start",
+    "ts-check": "tsc --noEmit"
   },
   "version": "0.1.0"
 }
