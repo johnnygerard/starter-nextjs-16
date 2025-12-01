@@ -35,7 +35,11 @@ type Props = {
 
 const RootLayout = ({ children }: Props) => {
   return (
-    <html className={geistSans.variable} lang="en-US">
+    <html
+      className={geistSans.variable}
+      data-scroll-behavior="smooth"
+      lang="en-US"
+    >
       <body className="font-sans">{children}</body>
     </html>
   );
