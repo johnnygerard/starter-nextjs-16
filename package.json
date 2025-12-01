@@ -1,13 +1,4 @@
 {
-  "name": "starter-nextjs-16",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
   "dependencies": {
     "next": "16.0.6",
     "react": "19.2.0",
@@ -23,5 +14,14 @@
     "eslint-config-next": "16.0.6",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "name": "starter-nextjs-16",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint",
+    "start": "next start"
+  },
+  "version": "0.1.0"
 }
