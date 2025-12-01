@@ -12,6 +12,8 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
+    "prettier": "3.7.3",
+    "prettier-plugin-tailwindcss": "0.7.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
@@ -24,6 +26,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo --hostname localhost",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lint": "eslint",
     "start": "next start",
     "ts-check": "tsc --noEmit"
