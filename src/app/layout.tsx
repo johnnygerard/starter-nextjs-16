@@ -14,7 +14,7 @@ const TITLE = "title";
 const DESCRIPTION = "description";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://placeholder.example.com"),
+  metadataBase: new URL("https://placeholder.example"),
   title: {
     template: `%s | ${APP_NAME}`,
     default: TITLE,
