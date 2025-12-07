@@ -3,6 +3,7 @@
 # Next.js
 /.next/
 /next-env.d.ts
+/out/
 
 # TypeScript
 /tsconfig.tsbuildinfo
