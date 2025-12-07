@@ -11,7 +11,8 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "~data/*": ["./data/*"]
     },
     "plugins": [
       {
@@ -21,7 +22,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2017"
+    "target": "ES2017",
+    "verbatimModuleSyntax": true
   },
   "exclude": ["node_modules"],
   "include": [

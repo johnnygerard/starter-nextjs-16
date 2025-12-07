@@ -1,11 +1,12 @@
 "use client";
+import type { FC } from "react";
 
 type Props = {
   error: Error & { digest?: string };
   reset: () => void;
 };
 
-const Error = ({ reset }: Props) => {
+const Error: FC<Props> = ({ reset }) => {
   return (
     <div>
       <h1>Something went wrong!</h1>

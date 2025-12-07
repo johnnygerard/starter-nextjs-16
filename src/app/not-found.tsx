@@ -1,11 +1,12 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
+import type { FC } from "react";
 
 export const metadata: Metadata = {
   title: "Page Not Found",
 };
 
-const NotFound = () => {
+const NotFound: FC = () => {
   return (
     <div className="grid min-h-screen place-items-center">
       <div className="text-center">
