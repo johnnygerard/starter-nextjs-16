@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
-import { ReactNode } from "react";
+import type { FC, ReactNode } from "react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,7 +33,7 @@ type Props = {
   children: ReactNode;
 };
 
-const RootLayout = ({ children }: Props) => {
+const RootLayout: FC<Props> = ({ children }) => {
   return (
     <html
       className={geistSans.variable}
