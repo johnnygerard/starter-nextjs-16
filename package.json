@@ -40,5 +40,6 @@
     "test": "vitest",
     "ts-check": "tsc --noEmit"
   },
+  "type": "module",
   "version": "0.1.0"
 }
