@@ -11,6 +11,10 @@ To learn how to use a GitHub template repository, check out [Creating a reposito
 - **Framework**: [Next.js 16](https://nextjs.org/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 
+### Backend
+
+- **CDN**: [Vercel](https://vercel.com/docs/cdn)
+
 ## How to Update
 
 To check for outdated packages, run `npm outdated`.
