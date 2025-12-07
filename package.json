@@ -28,7 +28,6 @@
     "node": "24",
     "npm": "11"
   },
-  "name": "starter-nextjs-16",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -40,6 +39,5 @@
     "test": "vitest",
     "ts-check": "tsc --noEmit"
   },
-  "type": "module",
-  "version": "0.1.0"
+  "type": "module"
 }
