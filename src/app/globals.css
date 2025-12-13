@@ -34,11 +34,3 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
 }
-
-@theme {
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  }
-}
