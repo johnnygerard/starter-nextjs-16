@@ -12,7 +12,7 @@
     "noEmit": true,
     "paths": {
       "~/*": ["./src/*"],
-      "~data/*": ["./data/*"]
+      "~#/*": ["./*"]
     },
     "plugins": [
       {
