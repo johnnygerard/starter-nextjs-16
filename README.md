@@ -15,6 +15,11 @@ To learn how to use a GitHub template repository, check out [Creating a reposito
 
 - **CDN**: [Vercel](https://vercel.com/docs/cdn)
 
+### Quality Assurance
+
+- **Unit testing**: [Vitest](https://vitest.dev/)
+- **End-to-end testing**: [Playwright](https://playwright.dev/)
+
 ## How to Update
 
 To check for outdated packages, run `npm outdated`.
