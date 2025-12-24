@@ -13,3 +13,10 @@
 
 # VS Code
 /.vscode/mcp.json
+
+# Playwright
+/blob-report/
+/playwright-report/
+/playwright/.auth/
+/playwright/.cache/
+/test-results/
