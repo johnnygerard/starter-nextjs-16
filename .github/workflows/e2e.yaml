@@ -9,18 +9,24 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
         with:
           check-latest: true
           node-version-file: ".nvmrc"
+
       - name: Install dependencies
         run: npm ci
+
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+
       - name: Run Playwright tests
         run: npx playwright test
-      - uses: actions/upload-artifact@v6
+
+      - name: Upload Playwright Report
+        uses: actions/upload-artifact@v6
         if: ${{ !cancelled() }}
         with:
           name: playwright-report
