@@ -51,7 +51,7 @@
     "format:check": "prettier --check .",
     "lint": "npm run ts-check && eslint",
     "next": "next",
-    "start": "next start",
+    "start": "npm run build && serve out",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "ts-check": "tsc --noEmit"
