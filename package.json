@@ -44,7 +44,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbo --hostname localhost",
+    "dev": "next dev",
     "e2e": "playwright test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
