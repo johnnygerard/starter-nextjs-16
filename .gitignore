@@ -8,9 +8,6 @@
 # TypeScript
 /tsconfig.tsbuildinfo
 
-# Migration
-/old-repository/
-
 # VS Code
 /.vscode/mcp.json
 
