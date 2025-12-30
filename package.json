@@ -37,6 +37,9 @@
       "version": "24"
     }
   },
+  "engines": {
+    "node": "24"
+  },
   "name": "starter-nextjs-16",
   "private": true,
   "scripts": {
