@@ -20,6 +20,7 @@
     "jsdom": "^27.3.0",
     "prettier": "3.7.4",
     "prettier-plugin-tailwindcss": "0.7.2",
+    "serve": "^14.2.5",
     "tailwindcss": "^4",
     "typescript": "^5.9.3",
     "vite-tsconfig-paths": "^5.1.4",
@@ -28,25 +29,29 @@
   "devEngines": {
     "packageManager": {
       "name": "npm",
-      "onFail": "warn",
+      "onFail": "error",
       "version": "11"
     },
     "runtime": {
       "name": "node",
-      "onFail": "warn",
+      "onFail": "error",
       "version": "24"
     }
+  },
+  "engines": {
+    "node": "24"
   },
   "name": "starter-nextjs-16",
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbo --hostname localhost",
+    "dev": "next dev",
     "e2e": "playwright test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "npm run ts-check && eslint",
-    "start": "next start",
+    "next": "next",
+    "start": "npm run build && serve out",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "ts-check": "tsc --noEmit"
