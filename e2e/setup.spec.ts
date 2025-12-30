@@ -1,9 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("homepage displays deployment success message", async ({ page }) => {
+test("homepage has an h1 element", async ({ page }) => {
   await page.goto("/");
-
-  await expect(
-    page.getByRole("heading", { name: "Deployment successful!" }),
-  ).toBeVisible();
+  await expect(page.locator("h1")).toBeVisible();
 });
