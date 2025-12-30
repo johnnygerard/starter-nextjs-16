@@ -46,6 +46,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "npm run ts-check && eslint",
+    "next": "next",
     "start": "next start",
     "test": "vitest run",
     "test:watch": "vitest watch",
