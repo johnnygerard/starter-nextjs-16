@@ -16,7 +16,7 @@
     },
     {
       "name": "Start Chrome (Production)",
-      "preLaunchTask": "npm: start:static",
+      "preLaunchTask": "npm: start",
       "request": "launch",
       "resolveSourceMapLocations": ["${workspaceFolder}/.next/static/chunks"],
       "runtimeArgs": [

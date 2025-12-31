@@ -41,27 +41,6 @@
       ],
       "script": "start",
       "type": "npm"
-    },
-    {
-      "isBackground": true,
-      "label": "npm: start:static",
-      "problemMatcher": [
-        {
-          "background": {
-            "activeOnStart": true,
-            "beginsPattern": {
-              "regexp": "build"
-            },
-            "endsPattern": {
-              "regexp": "Local:"
-            }
-          },
-          "owner": "typescript",
-          "pattern": "$tsc"
-        }
-      ],
-      "script": "start:static",
-      "type": "npm"
     }
   ],
   "version": "2.0.0"
