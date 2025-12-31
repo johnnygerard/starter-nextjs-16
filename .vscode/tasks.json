@@ -1,7 +1,6 @@
 {
   "tasks": [
     {
-      "detail": "next dev --turbo --hostname localhost",
       "isBackground": true,
       "label": "npm: dev",
       "problemMatcher": [
@@ -23,7 +22,6 @@
       "type": "npm"
     },
     {
-      "detail": "npm run build && serve out",
       "isBackground": true,
       "label": "npm: start",
       "problemMatcher": [
@@ -34,7 +32,7 @@
               "regexp": "build"
             },
             "endsPattern": {
-              "regexp": "Serving!"
+              "regexp": "Local:"
             }
           },
           "owner": "typescript",
@@ -42,6 +40,27 @@
         }
       ],
       "script": "start",
+      "type": "npm"
+    },
+    {
+      "isBackground": true,
+      "label": "npm: start:static",
+      "problemMatcher": [
+        {
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": {
+              "regexp": "build"
+            },
+            "endsPattern": {
+              "regexp": "Local:"
+            }
+          },
+          "owner": "typescript",
+          "pattern": "$tsc"
+        }
+      ],
+      "script": "start:static",
       "type": "npm"
     }
   ],
