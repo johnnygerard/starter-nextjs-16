@@ -41,4 +41,4 @@ npm install --save-exact --save-dev prettier@latest prettier-plugin-tailwindcss@
 
 ## Copyright
 
-© 2025 Johnny Gérard
+© 2025–2026 Johnny Gérard
