@@ -33,16 +33,14 @@ type Props = {
   children: ReactNode;
 };
 
-const RootLayout: FC<Props> = ({ children }) => {
-  return (
-    <html
-      className={geistSans.variable}
-      data-scroll-behavior="smooth"
-      lang="en-US"
-    >
-      <body className="font-sans">{children}</body>
-    </html>
-  );
-};
+const RootLayout: FC<Props> = ({ children }) => (
+  <html
+    className={geistSans.variable}
+    data-scroll-behavior="smooth"
+    lang="en-US"
+  >
+    <body className="font-sans">{children}</body>
+  </html>
+);
 
 export default RootLayout;
