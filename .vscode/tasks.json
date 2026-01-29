@@ -8,17 +8,26 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "▲ Next.js"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "✓ Ready"
+              "regexp": "Ready"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
       "script": "dev",
+      "type": "npm"
+    },
+    {
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "npm: build",
+      "problemMatcher": [],
+      "script": "build",
       "type": "npm"
     },
     {
@@ -29,13 +38,12 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "build"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "Local:"
+              "regexp": "Serving!"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
