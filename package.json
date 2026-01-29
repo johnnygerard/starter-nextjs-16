@@ -39,7 +39,8 @@
     }
   },
   "engines": {
-    "node": "24"
+    "node": "24",
+    "npm": "11"
   },
   "name": "starter-nextjs-16",
   "private": true,
