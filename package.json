@@ -49,12 +49,12 @@
     "e2e": "playwright test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "npm run ts-check && eslint",
+    "lint": "npm run ts:check && eslint",
     "next": "next",
     "start": "npm run build && serve out",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "ts-check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit"
   },
   "type": "module",
   "version": "0.0.0"
