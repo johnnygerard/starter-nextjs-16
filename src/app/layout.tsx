@@ -14,7 +14,7 @@ const TITLE = "title";
 const DESCRIPTION = "description";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://placeholder.example"),
+  metadataBase: new URL("https://starter-nextjs-16.vercel.app"),
   title: {
     template: `%s | ${APP_NAME}`,
     default: TITLE,
