@@ -9,9 +9,10 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
 });
 
-const APP_NAME = "appName";
-const TITLE = "title";
-const DESCRIPTION = "description";
+const APP_NAME = "Next.js 16 Starter";
+const TITLE = APP_NAME;
+const DESCRIPTION =
+  "A starter template for Next.js 16 with the latest features and best practices.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://starter-nextjs-16.vercel.app"),
