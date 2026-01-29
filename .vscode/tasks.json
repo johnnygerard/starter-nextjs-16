@@ -8,13 +8,12 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "▲ Next.js"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "✓ Ready"
+              "regexp": "Ready"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
@@ -39,13 +38,12 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "build"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "Local:"
+              "regexp": "Serving!"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
