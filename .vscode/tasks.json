@@ -22,6 +22,16 @@
       "type": "npm"
     },
     {
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "npm: build",
+      "problemMatcher": [],
+      "script": "build",
+      "type": "npm"
+    },
+    {
       "isBackground": true,
       "label": "npm: start",
       "problemMatcher": [
