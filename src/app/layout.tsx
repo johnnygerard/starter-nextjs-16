@@ -16,6 +16,12 @@ const DESCRIPTION =
   "A starter template for Next.js 16 with the latest features and best practices.";
 
 export const metadata: Metadata = {
+  icons: (["light", "dark"] as const).map((theme) => ({
+    url: `/assets/images/favicon-${theme}.png`,
+    type: "image/png",
+    sizes: "32x32",
+    media: `(prefers-color-scheme: ${theme})`,
+  })),
   metadataBase: new URL("https://starter-nextjs-16.vercel.app"),
   title: {
     template: `%s | ${APP_NAME}`,
