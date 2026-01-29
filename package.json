@@ -51,6 +51,7 @@
     "format:check": "prettier --check .",
     "lint": "npm run ts:check && eslint",
     "next": "next",
+    "qa": "npm run format:check && npm run lint && npm test && npm run build && npm run e2e",
     "start": "npm run build && serve out",
     "test": "vitest run",
     "test:watch": "vitest watch",
