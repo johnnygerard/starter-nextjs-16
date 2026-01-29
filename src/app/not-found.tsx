@@ -7,15 +7,13 @@ export const metadata: Metadata = {
 };
 
 const NotFound: FC = () => (
-  <div className="grid min-h-screen place-items-center">
-    <div className="text-center">
-      <hgroup>
-        <p>404</p>
-        <h1>Page Not Found</h1>
-      </hgroup>
-      <p>Sorry, the page you are looking for does not exist.</p>
-      <Link href="/">Back to Home</Link>
-    </div>
+  <div className="text-center">
+    <hgroup>
+      <p>404</p>
+      <h1>Page Not Found</h1>
+    </hgroup>
+    <p>Sorry, the page you are looking for does not exist.</p>
+    <Link href="/">Back to Home</Link>
   </div>
 );
 

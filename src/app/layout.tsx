@@ -39,7 +39,14 @@ const RootLayout: FC<Props> = ({ children }) => (
     data-scroll-behavior="smooth"
     lang="en-US"
   >
-    <body className="font-sans">{children}</body>
+    <body className="font-sans">
+      {/* This wrapper prevents a body overflow in mobile browsers. */}
+      <div className="flex min-h-screen flex-col">
+        {/* <Header /> */}
+        <main className="grid flex-1 items-center">{children}</main>
+        {/* <Footer /> */}
+      </div>
+    </body>
   </html>
 );
 
