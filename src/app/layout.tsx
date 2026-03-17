@@ -48,10 +48,10 @@ const RootLayout: FC<Props> = ({ children }) => (
     lang="en-US"
   >
     <body
-      className={tw([
+      className={tw(
         "bg-neutral-950 font-sans text-base text-neutral-100",
         "selection:bg-neutral-200 selection:text-neutral-900",
-      ])}
+      )}
     >
       {/* This wrapper prevents a body overflow in mobile browsers. */}
       <div className="flex min-h-screen flex-col">
