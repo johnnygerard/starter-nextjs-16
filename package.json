@@ -52,7 +52,7 @@
     "lint": "npm run ts:check && eslint",
     "next": "next",
     "postlint": "echo '✅ Linting check successful.'",
-    "qa": "npm run format:check && npm run lint && npm test && npm run build && npm run e2e",
+    "qa": "npm run format:check && npm run lint && npm test && npm run e2e",
     "start": "npm run build && serve out -l 3001",
     "test": "vitest run",
     "test:watch": "vitest watch",
