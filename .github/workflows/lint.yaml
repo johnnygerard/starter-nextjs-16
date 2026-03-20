@@ -6,11 +6,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Initialize environment
-        uses: ./.github/actions/init
+      - uses: actions/checkout@v6
+      - uses: ./.github/actions/install-node-dependencies
 
       - name: Check lint rules
         run: npm run lint
