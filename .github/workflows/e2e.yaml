@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Initialize environment
+      - name: Install Node.js dependencies
         uses: ./.github/actions/init
 
       - name: Install Playwright Browsers

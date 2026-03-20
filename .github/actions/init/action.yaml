@@ -1,9 +1,9 @@
-name: init
-description: Setup Node.js environment and install dependencies
+name: Install Node.js dependencies
+description: Set up Node.js environment and install dependencies
 runs:
   using: composite
   steps:
-    - name: Setup Node.js environment
+    - name: Set up Node.js environment
       uses: actions/setup-node@v6
       with:
         check-latest: true
