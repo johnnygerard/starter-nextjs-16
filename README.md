@@ -26,16 +26,6 @@ To learn how to use a GitHub template repository, check out [Creating a reposito
 - **Unit testing**: [Vitest](https://vitest.dev/)
 - **End-to-end testing**: [Playwright](https://playwright.dev/)
 
-## How to Update
-
-To check for outdated packages, run `npm outdated`.
-
-```bash
-# Update dependencies (this will rewrite package-lock.json and package.json)
-npm update --save
-npm install --save-exact --save-dev prettier@latest prettier-plugin-tailwindcss@latest
-```
-
 ## Notes
 
 - The GitHub Action `actions/setup-node@v6` relies on both `package.json` `engines` and `devEngines` to set the Node.js version and automatically cache npm dependencies.
