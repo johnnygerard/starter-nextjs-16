@@ -8,6 +8,7 @@ on:
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
+    if: github.event.created == false
     environment:
       name: production
       url: ${{ steps.deploy.outputs.url }}
